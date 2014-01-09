@@ -46,7 +46,7 @@ public class MainActivity extends ActionBarActivity {
             wv.getSettings().setJavaScriptEnabled(true);
             wv.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
             wv.getSettings().setBuiltInZoomControls(true);
-            wv.loadUrl("http://couponswebapp.vandervidi.cloudbees.net/views/");
+            wv.loadUrl("http://couponswebapp.vandervidi.cloudbees.net/controller/");
         }
     }
 
